@@ -1,0 +1,44 @@
+{
+  "name": "@pizzadao/pizza-box-assets-js",
+  "description": "Rare Pizza - Box metadata tool",
+  "version": "1.0.0",
+  "main": "hardhat.config.ts",
+  "homepage": "https://",
+  "license": "SEE LICENSE IN <LICENSE> FILE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PizzaDAO/pizza-box-assets-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PizzaDAO/pizza-box-assets-js/issues"
+  },
+  "keywords": [
+    "ethereum",
+    "web3",
+    "npm",
+    "eth",
+    "evm",
+    "smartcontract",
+    "erc721",
+    "nft",
+    "rare",
+    "pizza",
+    "box"
+  ],
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.33",
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  }
+}
